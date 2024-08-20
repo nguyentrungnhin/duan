@@ -1,0 +1,342 @@
+.container-all {
+    width: 100%;
+    height: 100%;
+
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.title-dieu-huong {
+    padding: 20px 0;
+    font-size: 14px;
+    border-top: 1px solid rgb(235, 235, 235);
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.detail-all {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-left-img {
+    width: 65%;
+}
+
+.detail-information {
+    width: 30%;
+}
+
+.detail-left-img {
+    display: flex;
+    gap: 20px;
+
+}
+
+.detail-left-img-phu {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.detail-left-img-phu-top {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 40px;
+    height: 40px;
+    background-color: #373737;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.detail-left-img-phu-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 40px;
+    height: 40px;
+    background-color: #373737;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.detail-left-img-phu img {
+    width: 100%;
+}
+
+.detail-left-img-main {
+    width: 75%;
+}
+
+.detail-left-img-main>img {
+    width: 100%;
+    height: 100%;
+}
+
+.detail-information-main>h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+}
+
+.detail-information-main>span {
+    display: block;
+}
+
+.detail-price {
+    margin: 15px 0;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.detail-kichthuoc>span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.detail-kt-items {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.detail-kt-item {
+    text-align: center;
+    width: 18%;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid rgb(212, 204, 204);
+}
+
+.detail-kt-item>button {
+    border: none;
+    background-color: #fff;
+}
+.detail-kt-item>button:hover{
+    transition: all 0.5s ease;
+    color: red;
+}
+.detail-kt-item:hover {
+    color: red;
+    transition: all 0.8s ease;
+    border: 1px solid red;
+}
+
+.detail-kt-item>a {
+    text-decoration: none;
+    color: #222;
+}
+
+.active-chitiet {
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.active-chitiet>a {
+    color: red;
+}
+
+.detail-kt-item:nth-child(1) {
+    position: relative;
+    color: red;
+}
+
+.detail-kt-item:nth-child(1)::after {
+    position: absolute;
+    content: "V";
+    width: 25px;
+    height: 25px;
+    background-color: #000000;
+    bottom: 0;
+    right: 0;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+.detail-color>span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.detail-color .cricle-detail-1 {
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+}
+
+.detail-quality>span {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    display: block;
+}
+
+.detail-quality {
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    justify-content: space-between
+}
+
+.detail-quality form {
+    border: 1px solid rgb(129, 126, 126);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.detail-quality form input {
+    width: 40px;
+    text-align: center;
+    border: none;
+}
+
+.detail-quality form button {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.detail-btn-all {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detail-btn-all button {
+    width: 100%;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.detail-add-to-cart {
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    transition: .5s;
+    margin-bottom: 5px;
+}
+
+.detail-add-to-cart:hover {
+    background-color: red;
+    color: #FFFFFF;
+}
+
+.detail-buy-now {
+    background-color: #070707;
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+.detail-buy-now:hover {
+    background-color: #433c3c;
+
+}
+
+.detail-product-detail {
+    margin-top: 30px;
+}
+
+.detail-product-detail>span>a {
+    text-decoration: none;
+}
+
+.detail-product-detail span {
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.container-footer {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    font-size: 19px;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+}
+
+.thongtin {
+    margin-top: 20px;
+}
+
+.thongtin>ul>li {
+    list-style: none;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.gioithieu {
+    margin-top: 20px;
+}
+
+.gioithieu>ul>li {
+    list-style: none;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.huongdan {
+    margin-top: 20px;
+}
+
+.huongdan>ul>li {
+    list-style: none;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.thanhtoan {
+    margin-top: 20px;
+}
+
+.thanhtoan>ul>li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.thanhtoan-img {
+    width: 150px;
+}
+
+.text-warning>i {
+    font-size: 17px;
+    padding-right: 3px;
+    margin-top: 10px;
+}
+
+.danh-muc {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.danh-muc>a {
+    text-decoration: none;
+    color: red;
+}

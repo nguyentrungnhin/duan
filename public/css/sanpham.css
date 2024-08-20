@@ -1,0 +1,63 @@
+.hihi {
+    margin-left: 20px;
+}
+
+.hehe {
+    margin-left: 15px;
+}
+
+.huhu {
+    margin-top: 10px;
+}
+
+.hi-1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card-1 {
+    height: 200px;
+    width: 273px;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+}
+
+.card-header>h5 {
+    text-align: center;
+    height: 50px;
+    padding-top: 13px;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.card-header {
+    background-color: #F8F8F8;
+
+}
+
+.card-2 {
+    height: 320px;
+    width: 273px;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+}
+
+.card-3 {
+    height: 170px;
+    width: 273px;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+}
+
+.no-name {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.fist {
+    margin-left: 2px;
+}
+
